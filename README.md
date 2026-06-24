@@ -1,6 +1,6 @@
 # Egyptian Hieroglyphic Corpus
 
-This repository accompanies a manuscript currently under review in *Journal of Archaeological Science*.
+This repository accompanies a manuscript currently under review.
 
 The Egyptian Hieroglyphic Corpus, together with the associated files and documentation, will be publicly released through this repository upon acceptance of the article.
 
