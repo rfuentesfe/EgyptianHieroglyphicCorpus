@@ -2,7 +2,7 @@ services:
   backend:
     build: ./maat/backend
     ports:
-      - "8000:8000"
+      - "8011:8011"
     volumes:
       - ./maat/outputs:/app/outputs
       - ./maat/models:/app/models
