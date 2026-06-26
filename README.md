@@ -1,9 +1,3 @@
-
-## Paso 3: actualizar README principal
-
-En el `README.md` principal del repositorio añade arriba o debajo del título:
-
-```markdown
 ## MAAT prototype
 
 This repository will also provide the MAAT local execution package associated with the submitted manuscript.
