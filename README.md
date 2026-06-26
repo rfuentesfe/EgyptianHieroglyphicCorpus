@@ -1,7 +1,14 @@
-# Egyptian Hieroglyphic Corpus
+# Egyptian Hieroglyphic Corpus and MAAT
 
-This repository accompanies a manuscript currently under review.
+This repository contains the Egyptian Hieroglyphic Corpus and the MAAT prototype associated with the submitted manuscript.
 
-The Egyptian Hieroglyphic Corpus, together with the associated files and documentation, will be publicly released through this repository upon acceptance of the article.
+The repository is currently provided for review purposes. The dataset, trained models, and full local execution package will be made publicly available upon acceptance of the manuscript.
 
-The present page is intended to provide reviewers with a valid repository link during the peer-review process.
+## MAAT local execution
+
+MAAT is designed to be executed locally using Docker.
+
+```bash
+git clone https://github.com/rfuentesfe/EgyptianHieroglyphicCorpus.git
+cd EgyptianHieroglyphicCorpus
+docker compose up --build
