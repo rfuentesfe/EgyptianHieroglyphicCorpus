@@ -4,15 +4,3 @@ This repository contains the Egyptian Hieroglyphic Corpus and the MAAT prototype
 
 The repository is currently provided for review purposes. The dataset, trained models, and full local execution package will be made publicly available upon acceptance of the manuscript.
 
-## MAAT local execution
-
-This repository will also provide the MAAT local execution package associated with the submitted manuscript.
-
-MAAT is intended to be executed locally using Docker, allowing reviewers and researchers to run the prototype on their own computers without relying on an external server.
-
-The full dataset, trained models, and local execution package will be made publicly available upon acceptance of the manuscript.
-
-See:
-
-```text
-maat/README.md
