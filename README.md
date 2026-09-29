@@ -1,12 +1,10 @@
 # Egyptian Hieroglyphic Corpus
 
-Public corpus repository associated with the article accepted in *Applied Soft Computing*:
+This repository provides the Gardiner-code/English parallel corpus and a reproducible pipeline for preparing controlled data splits for the study, recognition, and translation of Egyptian hieroglyphic texts. The dataset was developed as part of the research presented in the following paper:
 
-**A modular image-to-translation framework for Egyptian hieroglyphic images**
+## Citation
 
-Raúl Fuentes-Ferrer, Jaime Duque-Domingo, Pedro Javier Herrera (2026).
-
-This repository provides the Gardiner-code/English parallel corpus and reproducible preparation of controlled data splits. It does not include trained models or a complete reproduction of all article experiments. MAAT is not part of this public article repository.
+R. Fuentes-Ferrer, J. Duque-Domingo, and P.J. Herrera (2026). *A modular image-to-translation framework for Egyptian hieroglyphic images*. Applied Soft Computing. *Accepted for publication*
 
 ## Corpus
 
