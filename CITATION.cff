@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the associated accepted article when using this corpus."
+title: "Egyptian Hieroglyphic Corpus"
+type: dataset
+authors:
+  - family-names: "Fuentes-Ferrer"
+    given-names: "Raúl"
+  - family-names: "Duque-Domingo"
+    given-names: "Jaime"
+  - family-names: "Herrera"
+    given-names: "Pedro Javier"
+repository-code: "https://github.com/rfuentesfe/EgyptianHieroglyphicCorpus"
+preferred-citation:
+  type: article
+  title: "A modular image-to-translation framework for Egyptian hieroglyphic images"
+  authors:
+    - family-names: "Fuentes-Ferrer"
+      given-names: "Raúl"
+    - family-names: "Duque-Domingo"
+      given-names: "Jaime"
+    - family-names: "Herrera"
+      given-names: "Pedro Javier"
+  journal: "Applied Soft Computing"
+  year: 2026
+  notes: "Accepted for publication."

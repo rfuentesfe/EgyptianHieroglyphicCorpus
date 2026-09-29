@@ -1,0 +1,62 @@
+{
+  "source": {
+    "filename": "tu_corpus_100k.csv",
+    "sha256": "da9079e3c2e2dcd09392c982875f3f071171908705391652c031817017fa6cdb",
+    "bytes": 7299944
+  },
+  "columns": [
+    "Gardiner Code",
+    "Translation English"
+  ],
+  "counts": {
+    "source_records": 123658,
+    "incomplete": 34,
+    "valid": 123624,
+    "duplicate_groups": 312,
+    "rows_in_duplicate_groups": 632,
+    "removable_copies": 320,
+    "unique_pairs": 123304,
+    "train": 98643,
+    "validation": 12330,
+    "test": 12331
+  },
+  "seed": 42,
+  "normalization": "if pd.isna(x): return \"\"; otherwise return \" \".join(str(x).strip().split())",
+  "read_method": "pandas.read_csv defaults; select the two named columns",
+  "deduplication": "drop_duplicates(subset=columns, keep='first'); preserve source order",
+  "split_method": "unique.sample(frac=1.0, random_state=42).reset_index(drop=True); int(n*0.8), int(n*0.1), remainder",
+  "exact_pair_overlaps": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "split_union_equals_unique_corpus": true,
+  "serialization": "UTF-8 without BOM, LF, header, no index",
+  "runtime": {
+    "python": "3.8.10",
+    "pandas": "1.4.0",
+    "numpy": "1.23.5"
+  },
+  "files": {
+    "data/gardiner_english_corpus.csv": {
+      "bytes": 7174656,
+      "sha256": "ad7fc4b641b14ac7847f2026761b4eff3e6230f73c3047430a74202b9e91d3db"
+    },
+    "data/gardiner_english_corpus_deduplicated.csv": {
+      "bytes": 7164968,
+      "sha256": "ca88f73d0231839ef6a15ff87bebcbcfdc67a4260f89052d2527962b3ea599e8"
+    },
+    "splits/test.csv": {
+      "bytes": 714549,
+      "sha256": "73e38f10d8ad7d9f9b7591b2df931781ba04890dc3d189662b4b84e22aabb80d"
+    },
+    "splits/train.csv": {
+      "bytes": 5731755,
+      "sha256": "69af8ffc54f21bd7c25b9e274b7cf8243e137c78987497b93f242a2c7a6a3660"
+    },
+    "splits/validation.csv": {
+      "bytes": 718732,
+      "sha256": "ec237021216b111919d101f912fadea20466c3b99e94f01c3b78f3bdd496f245"
+    }
+  }
+}
