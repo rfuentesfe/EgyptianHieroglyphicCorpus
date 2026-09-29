@@ -26,7 +26,7 @@ Controlled splits use the deduplicated corpus with `df.sample(frac=1.0, random_s
 
 ## Provenance
 
-The corpus was manually constructed, reviewed, normalized and adapted by the authors. The published Gardiner-code/English pairs were manually curated and adapted rather than automatically copied from reference resources.
+The corpus was manually constructed, reviewed, normalized and adapted for this research. The published Gardiner-code/English pairs were manually curated and adapted rather than automatically copied from reference resources.
 
 Reference materials included Schweitzer, S. D. (2019), *AED – Ancient Egyptian Dictionary Version 1.0* (Zenodo); Erman, A., & Grapow, H. (1926–1963), *Wörterbuch der ägyptischen Sprache*; Gardiner's *Egyptian Grammar* and dictionary resources; and the authors' own notes and manual work on hieroglyphic stelae. The preparation script processes the resulting manually prepared source corpus. See [DATA_NOTICE.md](DATA_NOTICE.md) for the corpus-level provenance statement and the distinction between software and data.
 
