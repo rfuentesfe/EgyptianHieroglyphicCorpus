@@ -4,7 +4,7 @@ This repository provides the Gardiner-code/English parallel corpus and a reprodu
 
 ## Citation
 
-R. Fuentes-Ferrer, J. Duque-Domingo, and P.J. Herrera (2026). *A modular image-to-translation framework for Egyptian hieroglyphic images*. Applied Soft Computing. *Accepted for publication*
+R. Fuentes-Ferrer, J. Duque-Domingo, and P.J. Herrera (2026). *A modular image-to-translation framework for Egyptian hieroglyphic images*. Applied Soft Computing. DOI: [10.1016/j.asoc.2026.116549](https://doi.org/10.1016/j.asoc.2026.116549)
 
 ## Corpus
 
@@ -50,6 +50,6 @@ See [data](data/README.md), [splits](splits/README.md), and [results](results/RE
 
 ## Citation and rights
 
-Use [CITATION.cff](CITATION.cff). The article is accepted; no definitive DOI, volume or pages are asserted.
+Use [CITATION.cff](CITATION.cff) for the article citation and DOI.
 
 [MIT](LICENSE) covers original scripts and software only, not the corpus or its splits. The separate [data notice](DATA_NOTICE.md) records corpus authorship and provenance. Cited third-party works remain the property of their respective rights holders.
