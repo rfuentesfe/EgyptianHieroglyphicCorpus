@@ -21,5 +21,7 @@ preferred-citation:
     - family-names: "Herrera"
       given-names: "Pedro Javier"
   journal: "Applied Soft Computing"
-  year: 2026
+  year: 2027
+  volume: "204"
+  start: "116549"
   doi: "10.1016/j.asoc.2026.116549"
